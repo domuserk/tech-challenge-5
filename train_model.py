@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report
 # 1. CARREGAR DADOS
 # ==========================
 
-arquivo = "pede.xlsx"
+arquivo = "./data/pede.xlsx"
 
 df = pd.read_excel(arquivo)
 

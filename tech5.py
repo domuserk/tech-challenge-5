@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Analytics Educacional - Dashboard", layout="wide")
 st.title("📊 Sistema de Análise Educacional")
 
-arquivo = "pede.xlsx"
+arquivo = "./data/pede.xlsx"
 
 
 # Funções (tratativas do NaN)
